@@ -1,10 +1,10 @@
 const sgMail = require('@sendgrid/mail');
 const client = require('@sendgrid/client');
 client.setApiKey(
-  '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',
+  <SENDGRID_API_HERE>
 );
 sgMail.setApiKey(
-  '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',
+  <SENDGRID_API_HERE>
 );
 
 class Sendgrid {
